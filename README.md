@@ -13,8 +13,7 @@ This Project Was Made By 4 students :
 ## Démonstation
 
 
-https://github.com/user-attachments/assets/67c8f583-0420-4765-af32-3181955d45a5
-
+https://github.com/user-attachments/assets/c5563178-f866-411f-80c3-b8d5bfa203c8
 
 
 # Simulation de Routage Dynamique
@@ -419,25 +418,6 @@ Le projet utilise **Raylib** pour une visualisation 2D moderne :
 - Pas de dépendances externes complexes
 
 ---
-
-## 📤 Partage du Projet
-
-### Préparation
-
-Le projet est **autonome** et contient toutes les dépendances :
--  Raylib inclus
--  Assets inclus
--  Configuration incluse
-
-### Partage
-
-1. **Zipper le dossier** (sans `build/` pour réduire la taille)
-2. **Envoyer le ZIP** à vos amis
-3. **Instructions pour le destinataire** :
-   - Extraire le ZIP
-   - Suivre les instructions d'installation ci-dessus
-   - Compiler avec `recompiler.bat` (Windows) ou `./build.sh` (Mac)
-   - Jouer !
 
 ### Fichiers à Inclure
 
