@@ -87,9 +87,9 @@ Le projet utilise la Programmation Orientée Objet et implémente deux Design Pa
 
 ---
 
-## 🚀 Installation et Compilation
+##  Installation et Compilation
 
-### 📋 Prérequis
+###  Prérequis
 
 #### Windows
 - **CMake** (version 3.15+) : [Télécharger](https://cmake.org/download/)
@@ -115,7 +115,7 @@ sudo apt-get update
 sudo apt-get install build-essential cmake
 ```
 
-### 🔨 Compilation
+###  Compilation
 
 #### Windows
 1. Double-cliquez sur `recompiler.bat`
@@ -137,12 +137,12 @@ sudo apt-get install build-essential cmake
    ./build/RoutageDynamique
    ```
 
-### ✅ Vérification
+###  Vérification
 
 Le projet est **autonome** et contient toutes les dépendances :
-- ✅ Raylib inclus dans `external/raylib/`
-- ✅ Assets inclus dans `assets/`
-- ✅ Configuration incluse dans `config/`
+-  Raylib inclus dans `external/raylib/`
+-  Assets inclus dans `assets/`
+-  Configuration incluse dans `config/`
 
 **Pas besoin de télécharger quoi que ce soit d'autre !**
 
@@ -188,9 +188,9 @@ Modifiez `config/config.json` pour personnaliser :
 
 ---
 
-## 📁 Architecture du Projet
+##  Architecture du Projet
 
-> 📖 **Pour une explication détaillée de l'architecture interne, consultez [STRUCTURE.md](STRUCTURE.md)**
+>  **Pour une explication détaillée de l'architecture interne, consultez [STRUCTURE.md](STRUCTURE.md)**
 
 Le projet suit une **architecture claire et modulaire** :
 
@@ -260,7 +260,7 @@ Sous_Projet_3_Routage_Dynamique_Cpp/
 
 ---
 
-## 🏗️ Design Patterns Implémentés
+##  Design Patterns Implémentés
 
 ### 1. Factory Pattern
 
@@ -313,7 +313,7 @@ planner.setStrategy(std::make_unique<DijkstraStrategy>());
 
 ---
 
-## 🧪 Tests Unitaires
+##  Tests Unitaires
 
 Le projet contient **5 tests unitaires** couvrant les classes principales :
 
@@ -350,7 +350,7 @@ ctest
 
 ---
 
-## 🔧 Technologies Utilisées
+##  Technologies Utilisées
 
 ### Langages et Standards
 - **C++17** : Langage de programmation moderne
@@ -373,7 +373,7 @@ ctest
 
 ---
 
-## 📊 Principes POO Appliqués
+##  Principes POO Appliqués
 
 ### Encapsulation
 - Données privées avec accesseurs publics
@@ -400,7 +400,7 @@ ctest
 
 ---
 
-## 🎨 Visualisation avec Raylib
+##  Visualisation avec Raylib
 
 Le projet utilise **Raylib** pour une visualisation 2D moderne :
 
@@ -425,9 +425,9 @@ Le projet utilise **Raylib** pour une visualisation 2D moderne :
 ### Préparation
 
 Le projet est **autonome** et contient toutes les dépendances :
-- ✅ Raylib inclus
-- ✅ Assets inclus
-- ✅ Configuration incluse
+-  Raylib inclus
+-  Assets inclus
+-  Configuration incluse
 
 ### Partage
 
@@ -442,17 +442,17 @@ Le projet est **autonome** et contient toutes les dépendances :
 ### Fichiers à Inclure
 
 **Inclure :**
-- ✅ Tous les dossiers (`include/`, `src/`, `tests/`, `demos/`, `assets/`, `config/`, `external/`)
-- ✅ Fichiers de configuration (`CMakeLists.txt`, `recompiler.bat`, `build.sh`)
-- ✅ Documentation (`README.md`)
+-  Tous les dossiers (`include/`, `src/`, `tests/`, `demos/`, `assets/`, `config/`, `external/`)
+-  Fichiers de configuration (`CMakeLists.txt`, `recompiler.bat`, `build.sh`)
+-  Documentation (`README.md`)
 
 **Exclure (optionnel) :**
-- ❌ `build/` (sera recréé lors de la compilation)
-- ❌ `.git/` (si vous utilisez Git)
+-  `build/` (sera recréé lors de la compilation)
+-  `.git/` (si vous utilisez Git)
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 ### Code
 - **Commentaires Doxygen** : Documentation complète des classes et méthodes
@@ -465,7 +465,7 @@ Le projet est **autonome** et contient toutes les dépendances :
 
 ---
 
-## 🐛 Dépannage
+##  Dépannage
 
 ### Erreur "CMake not found"
 - **Windows** : Installez CMake et ajoutez-le au PATH
@@ -486,7 +486,7 @@ Le projet est **autonome** et contient toutes les dépendances :
 
 ---
 
-## 📝 Exemple de Configuration
+##  Exemple de Configuration
 
 Fichier `config/config.json` :
 
@@ -522,11 +522,11 @@ Ce projet a été réalisé dans le cadre d'un cours de programmation C++.
 
 ### Consignes Respectées
 
-- ✅ Utilisation de C++ et principes de la POO
-- ✅ Architecture claire (include/, src/, tests/, demos/)
-- ✅ Intégration de Raylib pour la visualisation
-- ✅ Documentation du code (commentaires + README)
-- ✅ Système de configuration JSON
-- ✅ 5 tests unitaires minimum
-- ✅ 2 Design Patterns implémentés (Factory, Strategy)
-- ✅ Démo interactive avec Raylib
+-  Utilisation de C++ et principes de la POO
+-  Architecture claire (include/, src/, tests/, demos/)
+-  Intégration de Raylib pour la visualisation
+-  Documentation du code (commentaires + README)
+-  Système de configuration JSON
+-  5 tests unitaires minimum
+-  2 Design Patterns implémentés (Factory, Strategy)
+-  Démo interactive avec Raylib
